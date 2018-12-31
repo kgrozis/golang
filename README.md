@@ -22,7 +22,7 @@ bash# docker build --no-cache -t golang:0.0.1 .
 
 The container can be started as an long-lived application with the following commands:
 ```
-bash# docker run -t -d --name golang -v $(pwd)/go:/go/src/app golang:0.0.1
+bash# docker run -t -d -p 6001:6001 --name golang -v $(pwd)/go:/go/src/app golang:0.0.1
 ```
 
 The user can drop into the containers shell with the following command:
