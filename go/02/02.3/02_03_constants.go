@@ -72,11 +72,11 @@ const (
 	StarBrownDwarf              // value 2 [float64]
 )
 const (
-	_ = iota // value 0, skip value
-	square
+	_      = iota // value 0, skip value
+	square = 1 << iota
 	triangle
 	circle
-	_ // value 32, skip value
+	_ // value 16, skip value
 	rectangle
 )
 
