@@ -17,12 +17,12 @@ A step by step series of examples that tell you how to get a development env run
 
 The container image can be manually created with the following command:
 ```
-#  docker build --no-cache -t golang:0.0.1 .
+#  docker build --no-cache -t golang:0.0.2 .
 ```
 
 The container can be started as an long-lived application with the following commands:
 ```
-#  docker run -t -d -p 6001:6001 --name golang -v $(pwd)/go:/go/src/app golang:0.0.1
+#  docker run -t -d -p 6001:6001 --name golang -v $(pwd)/go:/go/src/app golang:0.0.2
 ```
 
 The user can drop into the containers shell with the following command:
