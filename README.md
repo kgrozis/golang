@@ -7,7 +7,7 @@ go-lang is a simple micro-service for building go-lang applications based on [go
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### PREQUISITES
-The following prerequisites are required for installing Cox-DC-Build micro-service:
+The following prerequisites are required for installing golang micro-service:
 1.	***Docker***: [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) is required to run the node-js micro-service.  Docker creates environment for isolating applicaiton(s); controlled versioning for softwawre tools, modules, and APIs; and for a reproducible environment on differing OSs.
 2.	***Git***: [Git]() is used for Source Code Management (SCM).
 
